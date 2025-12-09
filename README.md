@@ -1,5 +1,3 @@
-You can copy-paste this directly into your GitHub README.md.
-
 🚨 VisionGuard AI – Intelligent Surveillance System
 🔥 AI-powered Fight, Violence & Suspicious Object Detection with Real-Time Cloud Alerts
 
