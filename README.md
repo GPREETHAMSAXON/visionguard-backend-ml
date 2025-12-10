@@ -1,5 +1,5 @@
-🚨 VisionGuard AI – Intelligent Surveillance System
-🔥 AI-powered Fight, Violence & Suspicious Object Detection with Real-Time Cloud Alerts
+##🚨 VisionGuard AI – Intelligent Surveillance System
+##🔥 AI-powered Fight, Violence & Suspicious Object Detection with Real-Time Cloud Alerts
 
 Built using YOLOv8 + FastAPI + Cloudinary + Firestore
 
@@ -13,7 +13,7 @@ VisionGuard AI is an advanced surveillance solution designed to detect:
 
 🧍📍 Human activity patterns
 
-📸 Automatic snapshot detection + cloud upload
+##📸 Automatic snapshot detection + cloud upload
 
 This project integrates AI/ML + Backend API + Cloud Storage + Firestore to deliver real-time incident reporting for public safety environments such as:
 🔹 Colleges
@@ -24,8 +24,8 @@ This project integrates AI/ML + Backend API + Cloud Storage + Firestore to deliv
 
 This repo contains the AI/ML pipeline + Backend FastAPI system used to detect events and store incident data.
 
-🧠 Features
-🤖 AI Detection
+##🧠 Features
+##🤖 AI Detection
 
 ✅ YOLOv8-based fight detection using pose estimation
 
@@ -35,7 +35,7 @@ This repo contains the AI/ML pipeline + Backend FastAPI system used to detect ev
 
 ✅ Auto-snapshot generation
 
-☁️ Cloud Backend
+##☁️ Cloud Backend
 
 ✅ FastAPI REST server
 
@@ -53,7 +53,7 @@ This repo contains the AI/ML pipeline + Backend FastAPI system used to detect ev
 
     ✅ Location
 
-🔧 Tech Stack
+##🔧 Tech Stack
 
 🐍 Python
 
@@ -67,7 +67,7 @@ This repo contains the AI/ML pipeline + Backend FastAPI system used to detect ev
 
 🧰 OpenCV
 
-📂 Project Structure
+##📂 Project Structure
 VisionGuard/
 │── backend/
 │   ├── main.py                # FastAPI server
@@ -80,7 +80,7 @@ VisionGuard/
 │   ├── snapshots/             # Auto-generated snapshots
 │── README.md
 
-⚙️ Setup Instructions
+##⚙️ Setup Instructions
 
 1️⃣ Create Virtual Environment
      python -m venv venv
@@ -112,27 +112,27 @@ Create backend/firebase_config.py
  Do NOT upload these files to GitHub.
 (They're ignored in .gitignore)
 
-🚀 Run Backend
+##🚀 Run Backend
     cd backend
     uvicorn main:app --reload
 
-Swagger UI:
+##Swagger UI:
 👉 http://127.0.0.1:8000/docs
 
-🎯 Run AI Detection
+##🎯 Run AI Detection
 python ai_engine/fight_detection.py
 
 
-☁️ API Endpoints
-📤 POST /upload
+##☁️ API Endpoints
+##📤 POST /upload
 
 Uploads incident snapshot to Cloudinary + saves metadata to Firestore.
 
-📁 Body:
+##📁 Body:
 ⚫ file: image
 ⚫ alert_type: fight / bag / violence
 
-📥 Response:
+##📥 Response:
     {
       "message": "Upload successful",
       "url": "",
@@ -140,13 +140,13 @@ Uploads incident snapshot to Cloudinary + saves metadata to Firestore.
       "timestamp": ""
     }
 
-📸 Demo Output
+##📸 Demo Output
     🎯Automatically saves snapshots
     🎯Sends them to backend
     🎯Updates Firestore with alert logs
     🎯Bounding boxes visible in annotated frames
 
-🏆 Hackathon Ready
+##🏆 Hackathon Ready
 
 This project is fully integrated and includes:
     🤖AI/ML
@@ -157,7 +157,7 @@ This project is fully integrated and includes:
     💻Demo-friendly design
 Your frontend team can now use the API and build the app easily.
 
-❤️ Team VisionGuard
+##❤️ Team VisionGuard
 | Member         | Role                             |
 | -------------- | -------------------------------- |
 | Preetham Saxon | AI/ML + Backend + Analysis           |
@@ -166,7 +166,7 @@ Your frontend team can now use the API and build the app easily.
 | D Mani Vivek     | Backend - Firebase integrations + backend lead + Documentation + Testing          |
 
 
-🌟 Future Enhancements
+##🌟 Future Enhancements
 📷Live CCTV streaming with detection
 🗡️Weapon detection
 🚨Real-time push notifications
